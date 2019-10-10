@@ -1,0 +1,15 @@
+spring:
+  main:
+    banner-mode: console
+  thymeleaf:
+    cache: false
+  datasource:
+    name:
+server:
+  ssl:
+    enabled: true
+    key-store:
+    key-store-password:
+logging:
+  level:
+    root: WARN
